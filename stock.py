@@ -14,5 +14,3 @@ htmlfile = urllib.urlopen("http://www.bloomberg.com/markets/watchlist/recent-tic
 data = json.load(htmlfile)
 
 print data["last_price"]
-
-123
